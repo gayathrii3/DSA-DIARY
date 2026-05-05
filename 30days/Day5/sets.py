@@ -50,12 +50,12 @@
 # ----------------------------------------------
 # Find unique pairs with given sum
 
-nums = [1,2,3,4,5]
-target = 6
+# nums = [1,2,3,4,5]
+# target = 6
 
-unique = set()
+# unique = set()
 
-for n in nums:
-    if target - n in unique:
-        print((target - n, n))
-    unique.add(n)
+# for n in nums:
+#     if target - n in unique:
+#         print((target - n, n))
+#     unique.add(n)
