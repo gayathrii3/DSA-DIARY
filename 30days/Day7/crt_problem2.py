@@ -1,4 +1,4 @@
-# 2. Problem: Count Special Pairs
+# 2. Problem: Count Special Pairs (on hold)
 # --------------------------------
 
 # Given an array, count pairs (i, j) such that:
@@ -32,3 +32,4 @@ for i in range(n):
             count += 1
 
 print(count)
+
