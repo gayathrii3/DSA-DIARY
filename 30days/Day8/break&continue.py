@@ -97,23 +97,23 @@
 # -------------------------------------------------
 # Find first prime number in list
 
-nums = [4, 8, 9, 11, 15]
+# nums = [4, 8, 9, 11, 15]
 
-for n in nums:
-    is_prime = True
+# for n in nums:
+#     is_prime = True
 
-    if n < 2:
-        is_prime = False
+#     if n < 2:
+#         is_prime = False
 
-    else:
-        for i in range(2,n):
-            if n % i == 0:
-                is_prime = False
-                break
+#     else:
+#         for i in range(2,n):
+#             if n % i == 0:
+#                 is_prime = False
+#                 break
             
-    if is_prime:
-        print(n)
-        break
+#     if is_prime:
+#         print(n)
+#         break
 
 
 
