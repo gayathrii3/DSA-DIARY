@@ -1,6 +1,6 @@
 # 26 Remove Duplicates from Sorted Array
 
-def remove_duplicates(nums):  #TC = O(n)
+def remove_duplicates(nums):
     if not nums:
         return 0
 
