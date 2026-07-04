@@ -1,13 +1,22 @@
-# Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct
+# 26 Remove Duplicates from Sorted Array
 
-nums = [1,2,3,1]
+def remove_duplicates(nums):  #TC = O(n)
+    if not nums:
+        return 0
 
-def duplicate(nums):
+    i = 0
+    for num in nums[1:]:
+        if num != nums[i]:
+            i += 1
+            nums[i] = num
 
-    for n in nums:
-        if len(nums) == len(set(nums)):
-            return False
-        else:
-            return True
+    return i + 1
+
+
+nums = [1, 1, 2, 2, 3, 4, 4]
+
+length = remove_duplicates(nums)
+
+print("Length:", length)
+print("Unique elements:", nums[:length])
     
-print(duplicate(nums))
