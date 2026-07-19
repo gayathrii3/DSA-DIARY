@@ -1,4 +1,4 @@
-num = list(map(int, input().split()))  #TC = O(n)
+num = list(map(int, input().split()))  
 
 smallest = float("inf")
 n = len(num)
